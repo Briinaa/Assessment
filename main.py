@@ -1,2 +1,6 @@
-# Note for team: second commit had "=" instead of "==" in the if condition (choice == "1"), now fixed
+else:
+ print("invalid choice")
+
+print(add(3, 5))
+print(length_of_list(["a","b","c"]))
 
