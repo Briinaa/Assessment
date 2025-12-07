@@ -1,6 +1,11 @@
-if choice = "1":
-  x = int(input("first number."))
-  y = int(input("second number."))
-  result = add(x, y)
-  print("result", result)
+elif choice =="2":
+items = []
+i = 0
+while i < 3:
+  item = input("enter item":)
+  items.append(item)
+  i = i + 1
+total = length_of_list(items)
+print("total items", total)
+
 
