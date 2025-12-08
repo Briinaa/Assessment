@@ -15,3 +15,7 @@ if choice =="1":
  result = add(x, y)
  print("result:", result)
 
+elif choice =="2":
+ items = []
+ i = 0
+ 
