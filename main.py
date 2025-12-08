@@ -1,6 +1,6 @@
-else:
- print("invalid choice")
+def add(a, b):
+ return a + b
+ 
+ 
 
-print(add(3, 5))
-print(length_of_list(["a","b","c"]))
 
