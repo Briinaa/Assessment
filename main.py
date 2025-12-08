@@ -25,3 +25,10 @@ elif choice =="2":
   i = i + 1
  total = length_of_list(items)
  print("total items:", total)
+
+else:
+ print("invalid choice")
+
+print(add(3, 5))
+print(length_of_list(["a","b","c"]))
+
