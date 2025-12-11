@@ -60,7 +60,9 @@ elif choice =="4":
     index = items.index(old)
     items[index] = new
     print(old,"changed to", new)
-      
+       
+  else:
+    print("item not found.")
 else:
  print("invalid choice")
 
