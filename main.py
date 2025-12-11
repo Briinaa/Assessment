@@ -30,6 +30,20 @@ elif choice =="2":
  total = length_of_list(items)
  print("total items:", total)
 
+
+elif choice =="3":
+  items = []
+  i = 0
+  while i < 3:
+    item = input("enter item")
+    items.append(item)
+    i = i + 1
+  
+  remove_target = input("enter item to remove: ")
+  if remove_target in items:
+    items.remove (remove_target)
+    print(remove_target, "removed")
+    
 else:
  print("invalid choice")
 
