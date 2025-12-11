@@ -3,9 +3,13 @@ def add(a, b):
 
 def length_of_list(my_list):
  return len(my_list)
-
+ item = []
+  
 print("1: Add numbers")
 print("2: Count items")
+print("3: Remove an item")
+print("4: Change an item")
+
 
 choice = input("choose 1 or 2:")
 
